@@ -16,13 +16,13 @@
 local status, gruvbox = pcall(require, "gruvbox")
 
 if not status then
-  return
+	return
 end
 
 gruvbox.setup({
-  contrast = "soft",
-  transparent_mode = false,
-  italic = false,
+	contrast = "soft",
+	transparent_mode = true,
+	italic = false,
 })
 
 vim.cmd("colorscheme gruvbox")
