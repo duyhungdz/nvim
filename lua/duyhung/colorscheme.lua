@@ -1,17 +1,16 @@
--- local kanagawa_present, kanagawa = pcall(require, "kanagawa")
+-- local dracula_present, dracula = pcall(require, "dracula")
 --
--- if not kanagawa_present then
+-- if not dracula_present then
 -- 	return
 -- end
 --
--- kanagawa.setup({
--- 	commentStyle = { italic = false },
--- 	keywordStyle = { italic = false },
--- 	variablebuiltinStyle = { italic = false },
--- 	transparent = true,
+-- dracula.setup({
+-- 	transparent_bg = true,
+-- 	lualine_bg_color = "#44475a",
+-- 	italic_comment = true,
 -- })
 --
--- vim.cmd("colorscheme kanagawa")
+-- vim.cmd("colorscheme dracula")
 --
 local status, gruvbox = pcall(require, "gruvbox")
 
