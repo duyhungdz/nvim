@@ -11,7 +11,7 @@
 -- })
 --
 -- vim.cmd("colorscheme dracula")
---
+-- --
 local status, gruvbox = pcall(require, "gruvbox")
 
 if not status then
@@ -25,20 +25,17 @@ gruvbox.setup({
 })
 
 vim.cmd("colorscheme gruvbox")
-
+--
 -- local status, tokyonight = pcall(require, "tokyonight")
 --
 -- if not status then
---   return
+-- 	return
 -- end
 --
 -- tokyonight.setup({
---   transparent = true,
---   style = "moon",
---   terminal_colors = true,
---   styles = {
---     keywords = { italic = false }
---   }
+-- 	transparent = false,
+-- 	keywords = { italic = false },
+-- 	terminal_colors = true,
 -- })
 --
--- vim.cmd("colorscheme tokyonight-moon")
+-- vim.cmd("colorscheme tokyonight-night")

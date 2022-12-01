@@ -37,7 +37,7 @@ return require("packer").startup({
 			end,
 		})
 		--colorscheme
-		-- use "folke/tokyonight.nvim"
+		use("folke/tokyonight.nvim")
 		-- use("Mofiqul/dracula.nvim")
 		use("ellisonleao/gruvbox.nvim")
 		use("christoomey/vim-tmux-navigator") --vim-tmux-navigator
