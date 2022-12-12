@@ -71,6 +71,8 @@ return require("packer").startup({
 		use("nvim-telescope/telescope-file-browser.nvim")
 
 		use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "kyazdani42/nvim-web-devicons" }) --bufferline
+		-- Winbar
+		use({ "SmiteshP/nvim-navic" })
 
 		use("nvim-lualine/lualine.nvim") -- status line
 
