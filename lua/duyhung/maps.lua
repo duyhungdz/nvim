@@ -25,6 +25,7 @@ keymap("", "<C-j>", "<C-w>j") --cant use dont know why
 keymap("", "<C-l>", "<C-w>l")
 
 -- Insert --
+keymap("i", "jk", "<ESC>")
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize -2<CR>", opts)
 keymap("n", "<C-Down>", ":resize +2<CR>", opts)
