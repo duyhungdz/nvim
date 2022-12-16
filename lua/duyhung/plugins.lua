@@ -38,8 +38,8 @@ return require("packer").startup({
 		})
 		--colorscheme
 		use("folke/tokyonight.nvim")
-		-- use("Mofiqul/dracula.nvim")
 		use("ellisonleao/gruvbox.nvim")
+		use("rose-pine/neovim")
 		use("christoomey/vim-tmux-navigator") --vim-tmux-navigator
 		use("nvim-tree/nvim-tree.lua") --nvim-tree
 		--treesister

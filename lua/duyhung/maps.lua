@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 -- Shorten function name
 local keymap = vim.keymap.set
 -- Silent keymap option
@@ -10,7 +11,7 @@ local opts = { silent = true }
 --keymap("n", ";;", ":Telescope buffers<CR>", opts)
 
 -- NvimTree
-keymap("n", "<c-p>", ":NvimTreeToggle<CR>", opts)
+keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- Split window
 keymap("n", "ss", ":split<Return><C-w>w")

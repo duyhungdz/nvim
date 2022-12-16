@@ -6,8 +6,8 @@ end
 
 lualine.setup({
 	options = {
-		-- theme = "dracula",
-		theme = "gruvbox",
+		theme = "rose-pine",
+		-- theme = "gruvbox",
 		-- theme = "tokyonight",
 		icons_enabled = true,
 		section_separators = { left = "", right = "" },
